@@ -19,21 +19,21 @@ Built with clean architecture, structured logging, and robust error handling.
 
 ## Project Structure
 
-
+```text
 trading_bot/
 │
 ├── bot/
-│ ├── init.py
-│ ├── client.py
-│ ├── orders.py
-│ ├── validators.py
-│ ├── logging_config.py
-│ └── cli.py
+│   ├── __init__.py
+│   ├── client.py
+│   ├── orders.py
+│   ├── validators.py
+│   ├── logging_config.py
+│   └── cli.py
 │
-├── logs/ # Ignored in repo (used locally)
-│ └── bot.log
+├── logs/               # Ignored in repo (used locally)
+│   └── bot.log
 │
-├── .env # Not included (contains API keys)
+├── .env                # Not included (contains API keys)
 ├── requirements.txt
 └── README.md
 
@@ -44,7 +44,7 @@ trading_bot/
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/divya-160106/trading-bot-binance.git
 cd trading_bot
 2. Install dependencies
